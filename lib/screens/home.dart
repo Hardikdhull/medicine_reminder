@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
           if (provider.medicines.isEmpty) {
             return const Center(
               child: Text(
-                'No medicines added yet.\nTap + to add one.',
+                'No medicines added yet.\nTap + to add one. By HardikDhull',
                 textAlign: TextAlign.center,
                 style: AppTextStyles.placeholder,
               ),
